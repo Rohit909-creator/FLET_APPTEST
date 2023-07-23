@@ -41,4 +41,4 @@ def main(page: ft.page):
         )
     page.add(container2)
     # ft.TextStyle()
-ft.app(target=main)
+ft.app(target=main,view=ft.AppView.WEB_BROWSER)
